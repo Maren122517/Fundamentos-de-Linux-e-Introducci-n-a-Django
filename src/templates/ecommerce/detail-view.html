@@ -1,0 +1,44 @@
+{% include "ecommerce/messages.html" %}
+
+<h1>
+    {{ product.title }}
+    {{ product.price }}
+</h1>
+
+<ul>
+    <li><strong>Descripción:</strong>
+        {% if product.description %}
+            {{ product.description }}
+        {% else %}
+            <em>No tiene descripción</em>
+        {% endif %}
+        (<a href="{% url 'update_description' product_id=product.id %}">Editar</a>)
+    </li>
+
+    <li><strong>Vendedor:</strong>
+        {% if product.seller %}
+            {{ product.seller }}
+        {% else %}
+            <em>No hay vendedor</em>
+        {% endif %}
+        (<a href="{% url 'update_seller' product_id=product.id %}">Editar</a>)
+    </li>
+
+    <li><strong>Color:</strong>
+        {% if product.color %}
+            {{ product.color }}
+        {% else %}
+            <em>No especificado</em>
+        {% endif %}
+        (<a href="{% url 'update_color' product_id=product.id %}">Editar</a>)
+    </li>
+
+    <li><strong>Dimensiones:</strong>
+        {% if product.product_dimensions %}
+            {{ product.product_dimensions }}
+        {% else %}
+            <em>No especificadas</em>
+        {% endif %}
+        (<a href="{% url 'update_dimensions' product_id=product.id %}">Editar</a>)
+    </li>
+</ul>
