@@ -1,0 +1,138 @@
+[
+{
+    "model": "ecommerce.productmodel",
+    "pk": 1,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Laptop",
+        "price": 20000.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 2,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Mouse",
+        "price": 500.0,
+        "description": "Mouse ligero con respuesta de 1 milisegundo mecanico",
+        "seller": "Rodolfo",
+        "color": "Negro",
+        "product_dimensions": "10cm x 4cm",
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 3,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Audifinos",
+        "price": 2000.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 5,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Libro",
+        "price": 450.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 6,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Gamer",
+        "price": 5000.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 7,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Laptop gamer",
+        "price": 50000.0,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 8,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Producto 1",
+        "price": 199.99,
+        "description": null,
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+},
+{
+    "model": "ecommerce.productmodel",
+    "pk": 9,
+    "fields": {
+        "state": "BR",
+        "timestamp": "2025-07-24T20:46:15.665Z",
+        "update": "2025-07-24T20:46:15.681Z",
+        "publish_timestamp": null,
+        "title": "Producto 2",
+        "price": 199.99,
+        "description": "Es una prueba",
+        "seller": null,
+        "color": null,
+        "product_dimensions": null,
+        "slug": null
+    }
+}
+]
