@@ -1,0 +1,13 @@
+{% if title %}
+  <h1>Mis productos</h1>
+{% endif %}
+
+{% for object in object_list %}
+
+    <li>{{ product.name }} - {{ product.description }}</li>
+
+    {% empty %}
+
+      <li>No tienes productos registrados.</li>
+
+{% endfor %}
